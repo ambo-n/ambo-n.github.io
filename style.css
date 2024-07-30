@@ -1,0 +1,10 @@
+/* Base HTML Styles */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+ :root {
+       --brand: #214E34;
+       --action: #792A37;
+       --white: #ffffff;
+       --base-light: #F9F8F0;
+       --black: #111111;
+     }
