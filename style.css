@@ -73,6 +73,16 @@ html {
    display:none;
 }
 
+h2 {
+   align-items: center;
+}
+.bio {
+   border: 1px solid black;
+  padding: 15px;
+  width: 800px;
+  height: 250px;
+  text-align: left;
+}
 /* header */
 header .mobile-header {
    padding: 14px;
@@ -108,11 +118,37 @@ header .mobile-header {
    height: 50px;
  }
 
-
  ul a {
    background-color: var(--brand);
    padding: 5px;
  }
+
+ /* hero section */
+
+ .hero {
+   display: flex;
+   flex-wrap: row wrap;
+   align-items: end;
+   gap: 2rem
+ }
+
+ .hero-text {
+   display: flex;
+   flex-direction: column;
+ }
+
+
+ a img{
+   height: 25px;
+ }
+
+.background-pic {
+   max-width: 70%;
+}
+div img {
+   width: 100%;
+}
+
 
  @media (min-width: 768px) {
     .logo {
@@ -177,6 +213,58 @@ header .mobile-header {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
   }
+
+  /* .article-container */
+@media (min-width: 768px) {
+   .articles-container {
+       display: flex;
+   }
+}
+article {
+   padding: 32px 16px;
+   background-color: var(--base-light);
+   border-radius: 10px;
+   margin: 5px 10px;
+   transition: all 0.3s ease;
+}
+
+@media (min-width:768px) {
+   article {
+       padding: 56px;
+   }
+}
+
+article:hover {
+   filter: contrast(150%);
+}
+
+/* My Projects */
+
+/* About me */
+
+.about-me {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-wrap: wrap;
+   text-align: center;
+   text-indent: 50px;
+  text-align: justify;
+}
+
+.bio-pic{
+   max-width: 30%;
+}
+
+/* p {
+   display:block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   unicode-bidi: isolate;
+   padding: 250vw;
+} */
  /* colour theme */
 
  body {
@@ -198,3 +286,53 @@ header .mobile-header {
       color: #809fff;
     }
   }
+
+/* contact form */
+.contact-form {
+   padding: 48px 16px;
+   border-radius: 10px;
+   margin: 5px 10px;
+}
+
+.contact-form input,
+.contact-form select {
+   display: block;
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 16px;
+}
+
+.contact-form textarea {
+   display: block;
+   width: 100%;
+   padding: 8px;
+}
+
+.contact-form label {
+   display: block;
+   width: 100%;
+}
+
+.contact-form h2 {
+   color: var(--base-dark);
+   margin-bottom: 16px;
+}
+
+.contact-form input[type="submit"] {
+   background-color: var(--action);
+   border: 0;
+   margin-top: 8px;
+   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+   .contact-form h2 {
+       text-align: center;
+       font-size: 2.5rem;
+   }
+   
+   .contact-form form {
+       max-width: 60%;
+       margin: 40px auto;
+   }
+}

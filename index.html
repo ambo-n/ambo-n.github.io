@@ -36,30 +36,32 @@
             </ul>
         </nav>
         </header>
-        <section>
-            <div class="container">
-                <div>
-                    <img class="image" src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+        <section class="hero">
+            <div class="background-pic">
+                <img class="image" src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+            </div>
+            <div>
+                <div class="hero-text">
+                    <h2>Welcome. Hi, I'm Amber</h2>
                 </div> 
                 <div>
-                    <h2>Welcome. Hi, I'm Amber</h2>
-                    <div class="container">
-                        <a href="https://github.com/ambo-n"></a>
-                        <img class="socials icon" src="./img/github-mark.svg"
-                        alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/amber-nguyen-231936176/">
-                        <img class="socials icon" src="./img/linkedin.svg"
-                        alt="The Linkedin Logo: lowercase black i and n letters" />
-                        </a>
-                    </div> 
+                    <a href="https://github.com/ambo-n">
+                    <img class="socials-icon" src="./img/github-mark.svg"
+                    alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amber-nguyen-231936176/">
+                    <img class="socials-icon" src="./img/linkedin.svg"
+                    alt="The Linkedin Logo: lowercase black i and n letters" />
+                    </a>
                     <a href="#" class="btn-primary">About me</a>    
                 </div>
             
             </div>
         </section>
-        <section>
-            <h2>My Projects</h2>
+        <section class="articles-container">
+            <div class="my-projects">
+                <h2>My Projects</h2>
+            </div>
             <article>
                 <img class="" src="./img/portfolio.svg"
                 alt="Portfolio My Profile Browser SVG Vector Icon"/>
@@ -83,16 +85,20 @@
                 <a href="#" class="btn-primary">Project 4</a>
             </article>
         </section>
-        <section>
+        <section class="about-me" id="about-me">
             <h2>About Me</h2>
-            <img src="./img/profile-pic.jpeg" alt="A profile picture" class="">
-                
-            <div>
+            <div class="bio-pic">
+                <img class="re-size" src="./img/profile-pic.jpeg" alt="A profile picture">
+            </div>
+            <div class="bio">
                 <!-- write bio here -->
-                <h3>Bio</h3>
-                <p>Paragraph1</p>
-                <p>Paragraph2</p>
-                <p>Paragraph3</p>
+                <p>Hi there! I'm Amber, and I've got a background in chemistry that's been a huge part of my journey so far. After finishing my degree, I dove into the commercial laboratory world, 
+                    where I got to put my knowledge to practical use.</p>
+                <p>Before that, I enjoyed working as a UniPass facilitator and lab demonstrator, helping students navigate their own scientific journeys. 
+                    It was a rewarding experience to support their learning and share my passion for science.</p>
+                <p>Currently, I'm working as a scientific advisor at Risk Management Technology. My role involves using my scientific background to provide insights into chemical management and chemical safety. 
+                    But I’m also excited about shifting gears into software development. I discovered She Codes at a networking event, and the inspiring stories of women in tech there really sparked my interest in this new field.</p>
+                <p>When I’m not immersed in work or learning something new, I love bouldering. It’s a fantastic way for me to challenge myself and stay active. I’m looking forward to blending my background in science with new tech skills and continuing to push my own boundaries in all areas of life.</p>
             </div>
             <div>
                 <!-- insert drop down menu here -->
@@ -113,6 +119,8 @@
                 <!-- put in labels for placeholders -->
                 <label for="your-name">Your Name</label>
                 <input type="text" id="your-name">
+                <label for="email">Email</label>
+                <input type="text" id="email">
                 <label for="message">Your Message</label>
                 <textarea name="message-text" id="message" rows="10"></textarea>
                 <input type="submit" value="Submit" class="btn-primary">
