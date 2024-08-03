@@ -65,7 +65,7 @@ main {
 .banner {
     background-color: #214E34;
 }
-header .mobile-header {
+header {
     padding: 14px;
     display: flex;
     align-items: center;
@@ -84,14 +84,8 @@ header button {
     all: unset;
 } 
 
-.logo {
-    width: 100px;
-    height: 100px;
-}
-
-/* .hamburger-icon */
-.hamburger-icon {
-    height: 50px;
+header nav ul li a{
+    padding: 10px;
 }
 
 /* .desktop-nav */
@@ -106,6 +100,8 @@ header button {
     display: block;
     padding: 4px 16px;
 }
+
+
 
 /* hero section */
 .hero {
@@ -155,6 +151,9 @@ header button {
     
 }
 
+.project {
+    padding: 16px;
+}
 
 .project-container {
     display:flex;
@@ -278,8 +277,8 @@ div img {
     width: 100px;
     padding: 0.6rem;
 }
-/* 
->>>>>>>>> Temporary merge branch 2
+
+
 @media (min-width: 768px) {
     article {
         padding: 56px;
@@ -293,6 +292,7 @@ div img {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 15px;
     }
     header nav ul {
         display: flex;
@@ -300,12 +300,9 @@ div img {
         margin-right: 16px;
         background-color: var(--brand);
     }
-    header .mobile-header .hamburger-icon {
-        display: none;
-    }
+    
 }
-
-
+/* 
 @media (min-width: 768px) {
     .contact-form h2 {
         text-align: center;
@@ -333,4 +330,4 @@ div img {
     .desktop-nav {
         display: inline-block;
     }
-} */
+} */ 
