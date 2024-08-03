@@ -185,14 +185,13 @@ article:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-wrap: wrap;  */
     text-align: center;
-    text-indent: 50px;
 }
 
-.bio {
+.bio-container p {
     padding: 15px;
-    text-align: left;
+    text-align: justify;
+
 }
 
 
@@ -213,7 +212,7 @@ div img {
 /* Design */
 
 .bio-pic {
-    max-width: 30%;
+    width: 10rem;
 } 
 
 
@@ -262,6 +261,19 @@ div img {
     height: 40px;
 }
 
+/* second-page.html */
+
+.language-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.language-img {
+    width: 100px;
+    padding: 0.6rem;
+}
 
 @media (min-width: 768px) {
     article {
