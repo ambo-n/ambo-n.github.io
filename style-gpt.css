@@ -249,7 +249,7 @@ div img {
     margin-bottom: 16px;
 }
 
-.contact-form input[type="submit"] {
+.contact-form button[type="submit"] {
     background-color: var(--action);
     border: 0;
     margin-top: 8px;

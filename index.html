@@ -115,7 +115,10 @@
         </section>
         <section class="contact-form" id="Contact" class="Contact">
             <h2>Get in touch</h2>
-            <form>
+            <form
+            action="https://formspree.io/f/xzzprybe"
+            method="POST"
+            >
                 <!-- put in labels for placeholders -->
                 <label for="your-name">Your Name</label>
                 <input type="text" id="your-name">
@@ -123,7 +126,8 @@
                 <input type="text" id="email">
                 <label for="message">Your Message</label>
                 <textarea name="message-text" id="message" rows="10"></textarea>
-                <input type="submit" value="Submit" class="btn-primary">
+                <button type="submit" class="btn-primary">Submit</button>
+                <!-- <input type="submit" value="Submit" class="btn-primary"> -->
             </form>
         </section>   
     </main>
