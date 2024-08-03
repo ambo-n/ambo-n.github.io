@@ -188,18 +188,16 @@ article:hover {
     text-align: center;
 }
 
-.bio {
+.bio-container p {
     padding: 15px;
-    text-align: left;
+    text-align: justify;
+
 }
 .bio-container {
     text-align: justify;
     padding: 5px;
 }
 
-.bio-container p {
-    padding: 10px;
-}
 
 div img {
     width: 100%;
@@ -218,7 +216,7 @@ div img {
 /* Design */
 
 .bio-pic {
-    max-width: 30%;
+    width: 10rem;
 } 
 
 
