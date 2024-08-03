@@ -72,12 +72,21 @@ header .mobile-header {
     justify-content: space-between;
 }
 
+header {
+    padding: 10px;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 header button {
     all: unset;
 } 
 
 .logo {
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 /* .hamburger-icon */
@@ -100,7 +109,6 @@ header button {
 
 /* hero section */
 .hero {
-    border: 1px solid red;
     background-color: var(--base-light);
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +150,8 @@ header button {
 }
 
 /* .article-container */
-.articles-container {
+.articles-container h2 {
+    align-items: center;
     
 }
 
@@ -182,16 +191,8 @@ article:hover {
 }
 
 .bio {
-    border: 1px solid black;
     padding: 15px;
     text-align: left;
-}
-
-
-
-/* .logo */
-.logo {
-    height: 50px;
 }
 
 
@@ -257,7 +258,6 @@ div img {
 
 
 .socials-icon {
-    border: 1px solid red;
     width: 40px;
     height: 40px;
 }

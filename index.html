@@ -7,40 +7,40 @@
         <link rel="stylesheet" href="./style-gpt.css">
     </head>
     <body>
-        <header class="banner">
-            <div class="mobile-header banner">
-                <img src="./img/logo.svg" alt="A mountain" class="logo"/>
-                <button type="button">
+        <header class="banner" id="top" class="top">
+            <!-- <div class="mobile-header banner"> -->
+
+                <!-- <button type="button">
                     <img class="hamburger-icon" src="./img/hamburger.svg"
                     alt="Three horizontal lines, positioned one above the other."/>
-                </button>
-            </div>
-            <nav class="desktop-nav" aria-label="Primary">
-                <ul class="banner">
-                    <li>
-                        <a href="">My Projects</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="mobile-nav display-none banner" aria-label="Primary">
-                <ul class="banner">
-                    <li>
-                        <a href="">My Projects</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="background-pic">
-                <img src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+                </button> -->
+                <!-- <nav class="desktop-nav" aria-label="Primary">
+                    <ul class="banner">
+                        <li>
+                            <a href="">My Projects</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav> -->
+                <nav class="mobile-nav banner" aria-label="Primary">
+                    <ul class="banner">
+                        <li>
+                            <a href="#Projects">My Projects</a>
+                        </li>
+                        <li>
+                            <a href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             </header>
         <main>
-        <section class="hero">
+            <div class="background-pic">
+                <img src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+            </div>
+            <section class="hero">
                 <div class="hero-text">
                     <h2>Welcome. Hi, I'm Amber</h2>
                 
@@ -60,10 +60,8 @@
                 </div>
             </div>
         </section>
-        <section class="articles-container">
-            <div>
-                <h2>My Projects</h2>
-            </div>
+        <section id="Projects" class="Projects">
+            <h2>My Projects</h2>
             <div class="project-container">
             <article>
                 <img class="" src="./img/portfolio.svg"
@@ -115,7 +113,7 @@
                 <a href="#" class="btn-primary">My resume</a>
             </div>
         </section>
-        <section class="contact-form">
+        <section class="contact-form" id="Contact" class="Contact">
             <h2>Get in touch</h2>
             <form>
                 <!-- put in labels for placeholders -->
@@ -127,13 +125,12 @@
                 <textarea name="message-text" id="message" rows="10"></textarea>
                 <input type="submit" value="Submit" class="btn-primary">
             </form>
-        </section>
+        </section>   
     </main>
         <footer clas="banner">
             <div class="banner">
-                <h4>return</h4>
+                <a href="#top" class="btn-primary">Back to the top</a>
             </div>
-            <!-- insert return arrow-> link to an img -->
         </footer>
     </body>
 </html>
