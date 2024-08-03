@@ -280,7 +280,7 @@ div img {
     width: 100px;
     padding: 0.6rem;
 }
-
+/* 
 @media (min-width: 768px) {
     article {
         padding: 56px;
@@ -334,4 +334,4 @@ div img {
     .desktop-nav {
         display: inline-block;
     }
-}
+} */
