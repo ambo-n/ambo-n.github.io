@@ -22,10 +22,6 @@ html {
     box-sizing: inherit
  }
 
- body {
-    background-color: var(--base-light);
- }
-
  h1,
  h2,
  h3,
@@ -123,6 +119,9 @@ header .mobile-header {
    padding: 5px;
  }
 
+ .btn-secondary {
+    margin: 20px 0px;
+ }
  /* hero section */
 
  .hero {
@@ -137,10 +136,10 @@ header .mobile-header {
    flex-direction: column;
  }
 
-
+/* 
  a img{
    height: 25px;
- }
+ } */
 
 .background-pic {
    max-width: 70%;
@@ -157,12 +156,13 @@ div img {
     }
  }
 
-.container {
+ .container {
    background-color: var(--base-light);
    display:flex;
    flex-direction: row;
    justify-content: space-between;
-}
+ }
+ 
 
  }
 /* .mobile-nav */
@@ -196,7 +196,7 @@ div img {
 
 
  .banner {
-    background-color: #214E34;s
+    background-color: #214E34;
  }
 
 
@@ -209,17 +209,18 @@ div img {
     background-color: var(--brand);
     transition: all 0.3s ease;
  }
+ 
  .btn-primary:hover {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
   }
 
   /* .article-container */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
    .articles-container {
        display: flex;
    }
-}
+} */
 article {
    padding: 32px 16px;
    background-color: var(--base-light);
@@ -246,11 +247,11 @@ article:hover {
    display:flex;
    flex-direction: column;
    align-items: center;
-   text-wrap: wrap;
+   flex-wrap: wrap;
    text-align: center;
    text-indent: 50px;
-  text-align: justify;
-}
+ }
+ 
 
 .bio-pic{
    max-width: 30%;
@@ -268,10 +269,14 @@ article:hover {
  /* colour theme */
 
  body {
-    color: #222;
-    background: #fff;
-    font: 100% system-ui;
-  }
+   background-color: var(--base-light);
+   color: var(--black);
+   font-family: "Noto Sans", sans-serif;
+   scroll-behavior: smooth;
+   color: #222;
+   background: #fff; 
+   font: 100% system-ui; 
+ }
   a {
     color: #0033cc;
   }
@@ -314,7 +319,7 @@ article:hover {
 }
 
 .contact-form h2 {
-   color: var(--base-dark);
+   color: var(--black);
    margin-bottom: 16px;
 }
 
@@ -335,4 +340,10 @@ article:hover {
        max-width: 60%;
        margin: 40px auto;
    }
+}
+
+.socials-icon {
+   border: 1px solid red;
+   width: 50px;
+   height: 50px;
 }

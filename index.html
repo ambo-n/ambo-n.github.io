@@ -4,68 +4,67 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style-gpt.css">
     </head>
     <body>
         <header class="banner">
-        <div class="mobile-header banner">
-            <img src="./img/logo.svg" alt="A mountain" class="logo"/>
-            <button type="button" class="hamburger-button">
-                <img class="hamburger-icon" src="./img/hamburger.svg"
-                alt="Three horizontal lines, positioned one above the other."/>
-            </button>
-        </div>
-        <nav class="desktop-nav" aria-label="Primary">
-            <ul class="banner">
-                <li>
-                    <a href="">My Projects</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="mobile-nav display-none banner" aria-label="Primary">
-            <ul class="banner">
-                <li>
-                    <a href="">My Projects</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        </header>
-        <section class="hero">
-            <div class="background-pic">
-                <img class="image" src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+            <div class="mobile-header banner">
+                <img src="./img/logo.svg" alt="A mountain" class="logo"/>
+                <button type="button">
+                    <img class="hamburger-icon" src="./img/hamburger.svg"
+                    alt="Three horizontal lines, positioned one above the other."/>
+                </button>
             </div>
-            <div>
+            <nav class="desktop-nav" aria-label="Primary">
+                <ul class="banner">
+                    <li>
+                        <a href="">My Projects</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mobile-nav display-none banner" aria-label="Primary">
+                <ul class="banner">
+                    <li>
+                        <a href="">My Projects</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="background-pic">
+                <img src="./img/background.svg" alt="Green mountains in the back with pine trees at the front"/>
+            </div>
+            </header>
+        <main>
+        <section class="hero">
                 <div class="hero-text">
                     <h2>Welcome. Hi, I'm Amber</h2>
-                </div> 
+                
+                <div class="btn-secondary">
+                    <a href="./second-page.html" class="btn-primary">About me</a>    
+                </div>
                 <div class="articles-container">
-                    <div>
                         <a href="https://github.com/ambo-n">
                             <img class="socials-icon" src="./img/github-mark.svg"
                             alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm"/>
-                            </a>
-                    </div>
-                    <div>
+                        </a>
                         <a href="https://www.linkedin.com/in/amber-nguyen-231936176/">
                             <img class="socials-icon" src="./img/linkedin.svg"
                             alt="The Linkedin Logo: lowercase black i and n letters" />
                             </a>
-                    </div>
-                    <a href="#" class="btn-primary">About me</a>    
+                </div> 
                 </div>
-            
             </div>
         </section>
         <section class="articles-container">
-            <div class="my-projects">
+            <div>
                 <h2>My Projects</h2>
             </div>
+            <div class="project-container">
             <article>
                 <img class="" src="./img/portfolio.svg"
                 alt="Portfolio My Profile Browser SVG Vector Icon"/>
@@ -88,14 +87,14 @@
                 <img class="" src="./img/project4.svg" alt="A cat travel bag"/>
                 <a href="#" class="btn-primary">Project 4</a>
             </article>
+        </div>
         </section>
-        <section class="about-me" id="about-me">
+        <!-- <section class="about-me" id="about-me">
             <h2>About Me</h2>
             <div class="bio-pic">
                 <img class="re-size" src="./img/profile-pic.jpeg" alt="A profile picture">
             </div>
             <div class="bio">
-                <!-- write bio here -->
                 <p>Hi there! I'm Amber, and I've got a background in chemistry that's been a huge part of my journey so far. After finishing my degree, I dove into the commercial laboratory world, 
                     where I got to put my knowledge to practical use.</p>
                 <p>Before that, I enjoyed working as a UniPass facilitator and lab demonstrator, helping students navigate their own scientific journeys. 
@@ -105,12 +104,11 @@
                 <p>When I’m not immersed in work or learning something new, I love bouldering. It’s a fantastic way for me to challenge myself and stay active. I’m looking forward to blending my background in science with new tech skills and continuing to push my own boundaries in all areas of life.</p>
             </div>
             <div>
-                <!-- insert drop down menu here -->
                 <h3 class="">Languages</h3>
                 <img>
                 <img>
                 <img>
-            </div>
+            </div> -->
             <!-- fix up links -->
             <div>
                 <a href="#" class="btn-primary">Contact me</a>
@@ -130,6 +128,7 @@
                 <input type="submit" value="Submit" class="btn-primary">
             </form>
         </section>
+    </main>
         <footer clas="banner">
             <div class="banner">
                 <h4>return</h4>
