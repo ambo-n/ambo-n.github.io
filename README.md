@@ -12,6 +12,7 @@
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
+
 ​
 This is a portfolio website created using HTML/CSS. It aims to showcase the projects I've worked on and provide more information about myself. Within this website, you can find these following information:
 
