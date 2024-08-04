@@ -264,6 +264,7 @@ div img {
     height: 40px;
 }
 
+
 /* second-page html */
 
 .language-container {
@@ -302,32 +303,3 @@ div img {
     }
     
 }
-/* 
-@media (min-width: 768px) {
-    .contact-form h2 {
-        text-align: center;
-        font-size: 2.5rem;
-    }
-
-    .contact-form form {
-        max-width: 60%;
-        margin: 40px auto;
-    }
-}
-
-@media (min-width: 768px) {
-    .logo {
-        height: 65px;
-        margin: 10px;
-    }
-}
-@media (min-width: 768px) {
-    .desktop-nav a {
-        text-decoration: none;
-        font-size: larger;
-        color: var(--white);
-    }
-    .desktop-nav {
-        display: inline-block;
-    }
-} */ 
