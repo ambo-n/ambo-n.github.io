@@ -18,7 +18,7 @@ html {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  color: var(--white);
+  color: var(--black);
   scroll-behavior: smooth;
 }
 
@@ -77,143 +77,10 @@ select {
 /* header */
 header {
   background-color: var(--base-dark);
-  color: var(--white);
+  color: var(--black);
 }
-
-header div {
-  margin: 2rem;
-  padding: 1rem 0;
-}
-
-header h2 {
-  letter-spacing: 15px;
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
-  padding: 2rem;
-}
-
 ul li {
   display: block;
   font-size: 25px;
   letter-spacing: 5px;
-}
-
-.header-banner {
-  display: flex;
-  flex-flow: row nowrap;
-  flex-grow: 0;
-  justify-content: space-around;
-  padding: 4px;
-  background-color: var(--base-light);
-  color: var(--black);
-  font-weight: 500;
-  border-radius: 10px;
-  text-transform: uppercase;
-}
-
-div article {
-  text-align: center;
-}
-
-/* Navigation */
-nav ul {
-  text-align: center;
-  padding: 10px 0px;
-}
-nav a {
-  text-decoration: none;
-  color: var(--white);
-  padding: 4px 16px;
-  font-size: 18px;
-}
-
-/* Social icons */
-
-.social-icons {
-  width: 3rem;
-  height: 3rem;
-}
-
-/* main */
-
-main {
-  background-color: var(--base-light);
-  color: var(--black);
-  display: table;
-  margin: 2rem;
-}
-
-main h2 {
-  position: relative;
-  bottom: -17px;
-  background: var(--base-light);
-  padding-right: 10px;
-  margin: 0;
-  display: inline-block;
-}
-
-div.border {
-  border-bottom: 5px solid var(--base-dark);
-}
-
-/* .main-heading {
-   display: flex;
-   flex-flow: row nowrap;
-   flex-grow: 0;
-   justify-content: space-between;
-   padding: 4px;
-   text-transform: uppercase;
- }
-
- hr.spacer {
-   border: 5px solid var(--base-dark);
-   border-radius: 5px;
-   height: 50%;
-
- } */
-/* media queries */
-
-@media (min-width: 768px) {
-  header {
-    background-color: var(--base-dark);
-    color: var(--white);
-    /* height: 100vh; */
-  }
-
-  header div {
-    margin: 2rem;
-  }
-
-  header h2 {
-    letter-spacing: 15px;
-    font-size: 40px;
-    font-weight: 600;
-    text-align: justify;
-  }
-
-  ul li {
-    display: inline;
-  }
-
-  .header-surname h2 {
-    text-align: end;
-  }
-
-  .header-banner {
-    display: flex;
-    flex-flow: row nowrap;
-    flex-grow: 0;
-    justify-content: space-around;
-    padding: 4px;
-    background-color: var(--base-light);
-    color: var(--black);
-    font-weight: 500;
-    border-radius: 10px;
-    text-transform: uppercase;
-  }
-
-  div article {
-    text-align: center;
-  }
 }
