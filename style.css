@@ -1,6 +1,5 @@
 /* Base HTML Styles */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Limelight&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Limelight&display=swap");
 :root {
   --action: #004faa;
   --white: #ffffff;
@@ -74,6 +73,47 @@ select {
   font: inherit;
 }
 
+/* h1 */
+
+/* intro-page */
+.intro-page {
+  background-color: var(--base-dark);
+  color: var(--base-light);
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+}
+
+.intro-page h1 {
+  font-size: 45px;
+}
+.intro-page h2 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.climbing {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.list-intro {
+  text-align: center;
+  font-weight: 200;
+}
+
+.flex-container {
+  align-items: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.flex-item {
+  text-align: center;
+  margin: 5px 10px;
+}
+
 /* nav bar */
 .navbar ul {
   list-style-type: none;
@@ -100,9 +140,6 @@ select {
 }
 /* main */
 
-main {
-  margin: 2rem;
-}
 /* header */
 header {
   background-color: var(--base-dark);
