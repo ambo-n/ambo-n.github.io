@@ -210,6 +210,7 @@ header {
 }
 
 .about-me h1 {
+  padding: 10px;
   font-size: 30px;
   font-weight: 300;
   text-decoration: underline;
@@ -265,4 +266,60 @@ header {
     display: block;
     margin: auto;
   }
+}
+
+/* project-page */
+
+.project-page {
+  margin: 2rem;
+  min-height: 100svh;
+}
+
+.project-page h1 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: var(--base-dark);
+  text-underline-offset: 10px;
+}
+
+.project-page a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 20px;
+}
+.project-page a:hover {
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  border: 3px solid var(--base-dark);
+  margin: 10px;
+}
+
+.container-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-div {
+  text-align: center;
+  padding: 10px;
 }
