@@ -9,17 +9,25 @@
   <body>
     <header>
       <nav class="navbar">
-        <ul>
-          <li>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a ref="#">HOME</a>
+          </li>
+          <li class="nav-item">
             <a href="">CONTACT</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href=""> MY PROJECTS</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="">ABOUT</a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
       <div>
     </header>
@@ -30,7 +38,7 @@
         </div>
         <div>
             <h1>Welcome.</h1>
-            <h2>Hi, I'm</h2>
+            <p>Hi, I'm</p>
         </div>
         <div>
             <ul class="list-intro">
@@ -40,7 +48,7 @@
                 <li>LOOKING TO SOLVE PROBLEMS THAT EXCITE ME</li>
             </ul>
         </div>    
-            <h2 class="name">Amber</h2>
+            <p>Amber</p>
         <div class="flex-container">
             <div class="flex-item">
                 <a href="https://github.com/ambo-n">
@@ -54,8 +62,18 @@
             </div>
         </div>
       </section>
-      <section>
+      <section class="about-me">
         <h1>About Me</h1>
+        <div class="about-me-flex-container">
+          <div class="content-section">
+            <p>Hi, I’m Amber! I graduated with an Honours degree in Chemistry and currently work in the chemical management field. My professional journey took an exciting turn when I joined She Codes Cohort 24/25, where I discovered a passion for coding. What started as a curiosity quickly became a driving force in my career aspirations.</p>
+            <p>I love the creative process behind coding, from designing intuitive solutions to the thrill of debugging and optimizing. Problem solving is my true motivator—whether it’s tackling complex challenges or building tools that make life a little easier, I thrive on finding impactful solutions.</p>
+            <p>Outside of work, you’ll often find me tackling bouldering walls or exploring hiking trails—unless it’s summer, I'm not a very big fan of the heat! I’m always eager for new challenges and am currently seeking opportunities to grow as a developer. Let’s connect and create something impactful together!</p>
+          </div>
+          <div class="image-section">
+            <img src="./img/amberhiking.jpg" alt="An image of Amber hiking" class="hiking"/>
+          </div>
+        </div>
       </section>
       <section>
         <h1>My Projects</h1>
@@ -64,5 +82,6 @@
         <h1>Contact Me</h1>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
