@@ -207,6 +207,8 @@ header {
 .about-me {
   margin: 2rem;
   min-height: 100svh;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .about-me h1 {
@@ -272,6 +274,8 @@ header {
 
 .project-page {
   margin: 2rem;
+  min-height: 100svh;
+  min-height: 100vh;
 }
 
 .project-page h1 {
@@ -297,6 +301,8 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
   justify-content: center;
+  margin: auto;
+  padding-top: 100px;
 }
 
 .card {
