@@ -93,29 +93,72 @@
             <div>
               <img src="./img/sprout.jpg" alt="A cartoon image of a sprout" class="container-image"/>
             </div>
-            <div class="icon-div">
-              <img src="./img/python-icon.png" alt="An icon for python programming langauge" class="icon"/>
-            </div>
+            <div class="flex-container">
+              <div class="flex-item">
+                <img src="./img/python-icon.png" alt="An icon for python programming langauge" class="icon"/>
+              </div>
+              <div class="flex-item">
+                <img src="./img/django.svg" alt="An icon for django framework" class="icon"/>
+              </div>
+            </div>              
             <div class="link-div">
               <a href="https://github.com/ambo-n/crowdfunding_back_end">Crowdfunding Backend Build</a>
             </div>
           </div> 
           <div class="card">
             <div>
-              <img src="https://tse2.mm.bing.net/th?id=OIP.PNztriapwHuol6saALpnygHaHf&pid=Api" alt="A cartoon image of a sun" class="container-image"/>
+              <img src="./img/sprout.jpg" alt="A cartoon image of a sprout" class="container-image"/>
             </div>
-            <div class="icon-div">
-              <img src="./img/python-icon.png" alt="An icon for python programming langauge" class="icon"/>
-            </div>
+            <div class="flex-container">
+              <div class="flex-item">
+                <img src="./img/java-script-logo.png" alt="An icon for javascript programming langauge" class="icon"/>
+              </div>
+              <div class="flex-item">
+                <img src="./img/reacticon.png" alt="An icon for react framework" class="icon"/>
+              </div>
+            </div>  
             <div class="link-div">
-              <a href="https://github.com/ambo-n/weather-project">Weather App</a>
+              <a href="https://github.com/ambo-n/sprout">Crowdfunding FrontEnd Build (ongoing)</a>
             </div> 
           </div>
-          
+          <div class="card">
+            <div>
+              <img src="./img/portfolio-icon.jpg" alt="The image shows a portfolio interface with a user profile, a mountain icon, and a coding symbol, combining visual content and tech elements in a clean design." class="container-image"/>
+            </div>
+            <div class="flex-container">
+              <div class="flex-item">
+                <img src="./img/html.svg" alt="A black and white icon for html programming langauge" class="icon"/>
+              </div>
+              <div class="flex-item">
+                <img src="./img/css.svg" alt="A black and white icon for css programming langauge" class="icon"/>
+              </div>
+            </div>  
+            <div class="link-div">
+              <a href="https://github.com/ambo-n/ambo-n.github.io">Portfolio Website</a>
+            </div> 
+          </div>
         </div>
       </section>
-      <section>
-        <h1>Contact Me</h1>
+      <section class="contact-me-page">
+        <h1>Get In Touch</h1>
+        <div class="contact-container">
+          <form
+        action="https://formspree.io/f/xzzprybe"
+        method="POST"
+        class="contact-left"
+        >
+            <label for="your-name">Name</label>
+            <input type="text" id="your-name" placeholder="Your Name" class="contact-inputs" required>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Your Email" class="contact-inputs" required>
+            <label for="message">Message</label>
+            <textarea name="message-text" id="message" rows="10" placeholder="Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <div class="contact-right">
+            <img src="./img/contact-form-image.jpg" alt="An image of The Gap - Albany looking out to an island"/>
+          </div>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>

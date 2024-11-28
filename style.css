@@ -327,8 +327,91 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
 .link-div {
   text-align: center;
   padding: 10px;
+}
+
+/* contact me page */
+
+.contact-me-page {
+  margin: 2rem;
+  min-height: 100svh;
+  min-height: 100vh;
+}
+
+.contact-me-page h1 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: var(--base-dark);
+  text-underline-offset: 10px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  gap: 15px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.contact-inputs:focus {
+  border: 2px solid var(--base-dark);
+}
+
+.contact-inputs::placeholder {
+  color: rgb(199, 199, 199);
+}
+
+.contact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  gap: 10px;
+  border: none;
+  color: var(--white);
+  border-radius: 50px;
+  background: linear-gradient(270deg, var(--base-dark), green);
+  cursor: pointer;
+}
+
+.contact-right img {
+  width: 500px;
+  border: 3px solid var(--base-dark);
+}
+
+@media (max-width: 768px) {
+  .contact-inputs {
+    width: 80vw;
+  }
+
+  .contact-right {
+    display: none;
+  }
 }
