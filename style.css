@@ -444,3 +444,49 @@ header {
   height: 50px;
   margin: 0 20px 0 0;
 }
+
+/* surprised page */
+
+.surprise-page {
+  margin: 2rem;
+}
+
+.surprise-page h1 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: var(--base-dark);
+  text-underline-offset: 10px;
+}
+
+.surprise-page p {
+  margin: 15px;
+}
+
+.surprise-page button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  gap: 10px;
+  border: none;
+  color: var(--white);
+  border-radius: 50px;
+  background: linear-gradient(270deg, red, green);
+  cursor: pointer;
+}
+
+.modal {
+  border: 0;
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.45);
+}
+
+.cat-image {
+  margin: 0 15px;
+  width: 200px;
+  height: 250px;
+}
