@@ -7,20 +7,17 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header id="top" >
       <nav class="navbar">
         <ul class="nav-menu">
           <li class="nav-item">
-            <a ref="#">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a href="">CONTACT</a>
+            <a href="#project" class="nav-link">MY PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a href=""> MY PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a href="">ABOUT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -34,22 +31,23 @@
     <main>
       <section class="intro-page">
         <div>
+          <div>
             <img src="./img/climbing.jpg" alt="A picture of Amber climbing Frenchman's peak" class="climbing"/>
-        </div>
-        <div>
+          </div>
+          <div>
             <h1>Welcome.</h1>
             <p>Hi, I'm</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <ul class="list-intro">
                 <li>ASPIRING DEVELOPER</li>
                 <li>PROBLEM-SOLVER</li>
                 <li>BOULDERING ENTHUSIAST</li>
                 <li>LOOKING TO SOLVE PROBLEMS THAT EXCITE ME</li>
             </ul>
-        </div>    
+          </div>    
             <p>Amber</p>
-        <div class="flex-container">
+          <div class="flex-container">
             <div class="flex-item">
                 <a href="https://github.com/ambo-n">
                     <img class="socials-icon" src="./img/github.png" alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm"/>
@@ -59,10 +57,10 @@
                 <a href="https://www.linkedin.com/in/amber-nguyen-231936176/">
                     <img class="socials-icon" src="./img/linkedin.png" alt="The Linkedin Logo: lowercase black i and n letters" />
                 </a>
-            </div>
+          </div>
         </div>
       </section>
-      <section class="about-me">
+      <section class="about-me" id="about">
         <h1>About Me</h1>
         <div class="about-me-flex-container">
           <div class="content-section">
@@ -75,7 +73,7 @@
           </div>
         </div>
       </section>
-      <section class="project-page">
+      <section class="project-page" id="project">
         <h1>My Projects</h1>
         <div class="grid-container">
           <div class="card">
@@ -139,7 +137,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-me-page">
+      <section class="contact-me-page" id="contact">
         <h1>Get In Touch</h1>
         <div class="contact-container">
           <form
@@ -161,6 +159,18 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-banner">
+        <div>
+          <p>© Code by Amber 2024</p>
+        </div>
+        <div>
+          <a href="#top">
+            <img src="/img/up.png" alt="Press the arrow to go back to the introduction page"/>
+          </a>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
